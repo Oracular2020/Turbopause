@@ -1,0 +1,14 @@
+body {
+  background-color: #cccccc;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
