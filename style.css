@@ -2,27 +2,6 @@ body {
   background-color: #cccccc;
 }
 
-@keyframes background-color-transition {
-  0%, 100% {
-    background-color: #cccccc;
-  }
-
-  25% {
-    background-color: #ff0000;
-    animation-timing-function: ease-in;
-  }
-
-  50% {
-    background-color: #ffff00;
-    animation-timing-function: ease-out;
-  }
-
-  75% {
-    background-color: #00ff00;
-    animation-timing-function: ease-in;
-  }
-}
-
 .logo {
   display: flex;
   align-items: center;
