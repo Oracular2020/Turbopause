@@ -1,4 +1,3 @@
-Copy code
 function randomColor() {
   var color;
   do {
@@ -13,3 +12,9 @@ function getLightness(color) {
   var b = parseInt(color.substring(5, 7), 16);
   return (r * 299 + g * 587 + b * 114) / 1000;
 }
+
+function updateBodyColor() {
+  document.body.style.backgroundColor = randomColor();
+}
+
+setInterval(updateBodyColor, 5000);
