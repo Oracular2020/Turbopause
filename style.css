@@ -1,17 +1,5 @@
 body {
   background-color: #cccccc;
-  animation: background-color-transition 20s linear infinite;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-img {
-  max-width: 100%;
 }
 
 @keyframes background-color-transition {
@@ -33,4 +21,15 @@ img {
     background-color: #00ff00;
     animation-timing-function: ease-in;
   }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
 }
